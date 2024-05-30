@@ -9,7 +9,7 @@
         transform: translateX(0);
     }
     to {
-        transform: translateX(-20%);
+        transform: translateX(-18%);
     }
 }
 
@@ -62,7 +62,7 @@ header{
         #onda-a{
             position: absolute;
             z-index: 4;
-            width: 175%;
+            width: 3000px;
             height: 150px;
             left: 0;
             bottom: 0;
@@ -72,7 +72,7 @@ header{
 
         #onda-b{
             position: absolute;
-            width: 175%;
+            width: 3000px;
             height: 170px;
             left: 0;
             bottom: 0;
@@ -83,7 +83,7 @@ header{
 
         #onda-c{
             position: absolute;
-            width: 175%;
+            width: 3000px;
             height: 160px;
             left: 0;
             bottom: 0;
