@@ -63,7 +63,7 @@ header{
             position: absolute;
             z-index: 4;
             width: 175%;
-            height: 50%;
+            height: 150px;
             left: 0;
             bottom: 0;
             animation: onda-x 7s ease-in-out infinite alternate,
@@ -73,7 +73,7 @@ header{
         #onda-b{
             position: absolute;
             width: 175%;
-            height: 60%;
+            height: 170px;
             left: 0;
             bottom: 0;
             animation: onda-x 5s ease-in-out infinite alternate,
@@ -84,7 +84,7 @@ header{
         #onda-c{
             position: absolute;
             width: 175%;
-            height: 50%;
+            height: 160px;
             left: 0;
             bottom: 0;
             animation: onda-x 9s ease-in-out infinite alternate,
