@@ -85,6 +85,9 @@ main {
             }
 
     #metros{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         color: white;
         width: 22%;
         text-align: justify;

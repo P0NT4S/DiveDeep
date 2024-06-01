@@ -117,13 +117,19 @@ body{
         }
 
 .zonas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     color: white;
     font-family: "Roboto";
     z-index: 5;
+    text-decoration: none;
 }
     .zona-nome{
         position: absolute;
+        top: 0;
         right: 10px;
         font: 1.5em "Bebas Neue";
     }
@@ -140,7 +146,16 @@ body{
         bottom: 0;
     }
 
-#zona-a{
+    #zona-texto{
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .zonas:hover #zona-texto{
+        opacity: 100%;
+    }
+
+#zona-a{ 
     height: 100px;
     background-image: linear-gradient(#1fbfbfe6 ,#1FBFBF 35%);
 }
