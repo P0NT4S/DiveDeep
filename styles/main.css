@@ -27,16 +27,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #1FBFBF;
 }
 
-header{
+#inicio{
     position: relative;
     display: flex;
     justify-content: center;
     height: 300px;
-    /* background-color: #F2CDA0; */
     background-image:linear-gradient(#f8b563, #fce789 60%);
     text-align: center;
     padding-top: 50px;
@@ -45,10 +45,35 @@ header{
     line-height: 1.6em;
     overflow: hidden;
 }
+
+    nav{
+        position: fixed;
+        top: -35px;
+        z-index: 20;
+        opacity: 15%;
+        transition: 0.3s ease-in-out;
+    }
+
+        nav:hover{
+            opacity: 100%;
+        }
+     
+        nav a, nav a:visited{
+            margin: 0 2vw;
+            color: white;
+            font: 0.5em "Bebas Neue";
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+
+            nav a:hover{
+                text-shadow: rgba(0, 0, 0, 0.356) 2px 2px;
+            }
+
     header h1{
         position: fixed;
         z-index: 3;
-        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+        text-shadow: rgba(0, 0, 0, 0.35) 3px 5px;
     }
 
     #ondas{
@@ -56,7 +81,6 @@ header{
         height: 100%;
         width: 100%;
         bottom: -30px;
-
     }
 
         #onda-a{
