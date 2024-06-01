@@ -17,14 +17,14 @@
     padding: 0;
 }
 
-body{
-    background-color: var(--corluz);
-}
-
 h1, h2 {
     color: white;
     text-align: center;
     font-family: "Bebas Neue";
+}
+h2{
+    font-family: "Roboto";
+
 }
 
 p { 
@@ -34,7 +34,6 @@ p {
 main {
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--corluz);
 }
 
     #navegador{
@@ -55,6 +54,7 @@ main {
             justify-content:space-between;    
             color: white;
             outline: 1px solid white;
+            margin-top: 10px;
         }
 
             .especie{
@@ -63,15 +63,11 @@ main {
                 text-align: justify;
             }
 
-                .imgs {
-
+                .imgs img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
                 }
-
-                    .imgs img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: contain;
-                    }
 
         #curiosidades{
             display: flex;
@@ -85,6 +81,7 @@ main {
                 border: 2px;
                 border: 1px solid white;
                 padding: 10px;
+                text-align: justify;
             }
 
     #metros{
